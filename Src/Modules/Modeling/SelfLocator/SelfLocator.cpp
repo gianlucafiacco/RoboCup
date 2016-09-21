@@ -430,7 +430,7 @@ void SelfLocator::handleGameStateChanges(const Pose2f& propagatedRobotPose)
         if(theRobotInfo.number == 3 /*ROBOT è il taker*/)
         {
           for(int i=0; i<samples->size(); ++i)
-            samples->at(i).init(Pose2f(0.f, 1800.f, 0.f), *this, nextSampleNumber++);
+            samples->at(i).init(Pose2f(0.f, 2200.f, 0.f), *this, nextSampleNumber++);
           sampleSetHasBeenResetted = true;
         }
         else if(theRobotInfo.number == 2)

@@ -66,7 +66,7 @@
 
 //    PENALTY ROLES ----------------------------------------------------------------------
 
-#define PENALTY_STRIKER_GOALIE // if active changes the goalie and striker in order to playing penalty kick and changes also the localizations of the robots
+//#define PENALTY_STRIKER_GOALIE // if active changes the goalie and striker in order to playing penalty kick and changes also the localizations of the robots
                                  //NB: penalty kicker must be the number 3 and the goalie the 1
 
 //   DEMO MACROS ------------------------------------------------------------------------------
