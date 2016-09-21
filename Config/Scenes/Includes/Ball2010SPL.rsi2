@@ -1,0 +1,21 @@
+<Simulation>
+
+  <Surface name="whiteball" diffuseColor="rgb(100%, 100%, 100%)" specularColor="rgb(10%, 10%, 10%)" shininess="5" diffuseTexture="../Textures/textures-ball.jpg"/>
+
+  <Material name="ballPlastic">
+    <Friction material="fieldCarpet" value="0.0"/>
+    <RollingFriction material="fieldCarpet" value="0.3"/>
+  </Material>
+
+  <Body name="ball">
+    <SphereAppearance radius="0.05">
+      <Surface ref="whiteball"/>
+    </SphereAppearance>
+    <SphereGeometry radius="0.05">
+      <Material ref="ballPlastic"/>
+    </SphereGeometry>
+    <SphereMass value="0.055" radius="0.05"/>
+  </Body>
+
+
+</Simulation>

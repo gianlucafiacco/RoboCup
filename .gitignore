@@ -1,0 +1,54 @@
+PTracking/build/
+#PTracking/include/
+#PTracking/lib/
+Build/
+Util/alcommon/
+Util/boost/
+
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+!crtbeginS.o
+!crtendS.o
+!crti.o
+!crtn.o
+!crt1.o
+!crtbegin.o
+!crtend.o
+
+# Compiled Dynamic libraries
+
+*.dylib
+!libc-2.13.so
+!libm-2.13.so
+!ld-2.13.so
+!libpthread-2.13.so
+!librt-2.13.so
+
+# Compiled Static libraries
+*.lai
+*.la
+
+!libode.a
+!libc_nonshared.a
+!libsnappy.a
+!libgsl.a
+!libgslcblas.a
+!libjpeg-atom.a
+!libjpeg.a
+!libjpeg-x64.a
+!libpthread_nonshared.a
+
+# Naoqi-sdk
+Install/naoqi-sdk-1.14.5-linux32.tar.gz
+Install/naoqi-sdk-2.1.2.17-linux32.tar.gz
+Install/naoqi-sdk-2.1.4.13-linux32.tar.gz
+
+Config/specialActions.dat
+spqrnao2016.config
+spqrnao2016.creator
+spqrnao2016.files
+spqrnao2016.includes
+spqrnao2016.creator.user

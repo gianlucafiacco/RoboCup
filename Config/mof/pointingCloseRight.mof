@@ -1,0 +1,16 @@
+motion_id = pointingCloseRight
+
+label start         
+
+stiffness 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 10
+
+label sitting
+
+- - 90.0 10.1 -89.7 -2.3 -92.7 0.4 36.0 -23.2 -74.6 9.6 87.7 0.7 -0.1 0.0 -23.0 52.6 -29.9 0.0 -0.1 0.0 -23.2 52.6 -29.8 0.0 1 500
+
+label repeat
+
+- - 90.0 10.1 -89.7 -2.3 -92.7 0.4 36.0 -23.2 -74.6 9.6 87.7 0.7 -0.1 0.0 -23.0 52.6 -29.9 0.0 -0.1 0.0 -23.2 52.6 -29.8 0.0 0 100
+
+transition pointingCloseRight pointingCloseRight repeat
+transition allMotions extern start

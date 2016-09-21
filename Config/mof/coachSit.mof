@@ -1,0 +1,29 @@
+motion_id = coachSit
+
+//  (1)  HeadYaw       [-119/119]    (2)  HeadPitch     [29/-38]   (3) LShoulderPitch  [-119/119]       (4)  LShoulderRoll [-18/76]    
+//  (5)  LElbowYaw     [-119/119]    (6)  LElbowRoll    [-88/0]    (7) RShoulderPitch  [119/-119]       (8)  RShoulderRoll [-76/18]
+//  (9)  RElbowYaw     [119/-119]    (10)  RElbowRoll   [88/0]     (11) LHipYawPitch   [-65/42]         (12) LHipRoll      [-21/45] 
+//  (13) LHipPitch     [-88/27]      (14) LKneePitch    [-5/121]   (15) LAnklePitch    [52/-68]         (16) LAnkleRoll    [-22/44] 
+//  (17) RHipYawPitch  [-65/42]      (18) RHipRoll      [-45/21]   (19) RHipPitch      [27/-88]         (20) RKneePitch    [121/-5] 
+//  (21) RAnklePitch   [53/-67]      (22) RAnkleRoll [-44/22]
+//"HY HP LSP LSR LEY LER RSP RSR REY RER LHYP LHR LHP LKP LAP LAR RHYP RHR RHP RKP RAP RAR Int Dur
+
+label start         
+      
+//hardness 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 50
+
+* * -89.6 21.6 0.1 -22.3 0 0 -90 21.6 0.1 -22.3 0 0 0 0 -9.2 29.6 -20.4 0 0 0 -9.2 29.6 -20.4 0 1 800
+* * -89.6 21.6 0.1 -22.3 0 0 -90 21.6 0.1 -22.3 0 0 0 0 -20.0 30.0 -20.4 0 0 0 -20.0 30.0 -20.4 0 1 800
+* * -30 21.6 0.1 -22.3 0 0 -30 21.6 0.1 -22.3 0 0 0 0 -70.0 50.0 -20.4 0 0 0 -70.0 50.0 -20.4 0 1 800
+* * -50 21.6 0.1 -22.3 0 0 -50 21.6 0.1 -22.3 0 0 0 0 -88.0 100.0 -50.0 0 0 0 -88.0 100.0 -50 0 1 800
+* * -50 21.6 0.1 -22.3 0 0 -50 21.6 0.1 -22.3 0 0 0 0 -60.0 100.0 -50.0 0 0 0 -60.0 100.0 -50.0 0 1 800
+* * -50 21.6 0.1 -22.3 0 0 -50 21.6 0.1 -22.3 0 0 0 0 -70.0 80.0 -10.0 0 0 0 -70.0 80.0 -10.0 0 1 1000
+
+
+
+label repeat
+* * - - - - - - - - - - - - * - * - - - * - * - - - 1 1000
+
+
+transition coachSit coachSit repeat
+transition allMotions extern start       

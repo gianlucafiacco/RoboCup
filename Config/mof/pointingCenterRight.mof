@@ -1,0 +1,16 @@
+motion_id = pointingCenterRight
+
+label start         
+
+stiffness 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 10
+
+label sitting
+
+- - 90.0 10.2 -89.7 -2.3 -92.7 0.4 -20.4 -0.4 -77.3 9.4 87.7 0.7 -0.1 0.0 -23.0 52.7 -29.8 0.0 -0.1 0.0 -23.0 52.5 -29.7 0.0 1 500
+
+label repeat
+
+- - 90.0 10.2 -89.7 -2.3 -92.7 0.4 -20.4 -0.4 -77.3 9.4 87.7 0.7 -0.1 0.0 -23.0 52.7 -29.8 0.0 -0.1 0.0 -23.0 52.5 -29.7 0.0 0 100
+
+transition pointingCenterRight pointingCenterRight repeat
+transition allMotions extern start

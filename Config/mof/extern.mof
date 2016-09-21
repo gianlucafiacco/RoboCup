@@ -1,0 +1,45 @@
+motion_id = extern
+
+"This motion is entry point for SpecialAction from other motion modules
+
+label start
+
+"All mofs must be enumerated here
+
+transition playDead playDead start
+
+transition standUpBackNao standUpBackNao start
+transition standUpFrontNao standUpFrontNao start
+transition sitDown sitDown start
+transition sitDownKeeper sitDownKeeper start
+transition sumoPosition sumoPosition start
+transition genuflect genuflect start
+transition goUp goUp start
+transition afterGenuflect afterGenuflect start
+transition keeperJumpLeft keeperJumpLeft start
+transition keeperJumpRight keeperJumpRight start
+transition keeperStandJumpLeft keeperStandJumpLeft start
+transition keeperJumpLeftSim keeperJumpLeftSim start
+transition keeperJumpLeftPenalty keeperJumpLeftPenalty start
+transition keeperJumpLeftSign keeperJumpLeftSign start
+transition keeperSitAndJumpLeft keeperSitAndJumpLeft start
+transition stopBall stopBall start
+transition coachSit coachSit start
+transition pointingCenterLeft pointingCenterLeft start
+transition pointingCenterLeftDown pointingCenterLeftDown start
+transition pointingCenterRight pointingCenterRight start
+transition pointingCenterRightDown pointingCenterRightDown start
+transition pointingCloseLeft pointingCloseLeft start
+transition pointingCloseRight pointingCloseRight start
+transition pointingExtremeLeft pointingExtremeLeft start
+transition pointingExtremeRight pointingExtremeRight start
+transition pointingLeft pointingLeft start
+transition pointingModerateLeft pointingModerateLeft start
+transition pointingModerateRight pointingModerateRight start
+transition pointingRight pointingRight start
+
+transition stand stand start
+transition standHigh standHigh start
+
+"This line must be the last one
+transition extern extern start
